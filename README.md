@@ -1,18 +1,24 @@
-📌 HTML Boilerplate
+# 📌 Expanding Cards - HTML, CSS & JavaScript
 
-A simple and clean **HTML boilerplate** to kickstart your web projects. This template includes a well-structured HTML5 document with semantic elements, meta tags for SEO and responsiveness, and links to CSS & JavaScript files for easy customization.
+A simple and interactive **Expanding Cards** project built using **HTML, CSS, and JavaScript**. Clicking on a card expands it to reveal more content while smoothly collapsing others. This is a great beginner-friendly project to practice **flexbox, transitions, and event listeners**.
 
 ## 🚀 Features
 
-- ✅ **HTML5 Semantic Structure** (`header`, `main`, `footer`)
-- ✅ **Meta Tags for SEO & Responsiveness**
-- ✅ **Pre-linked CSS & JavaScript files**
-- ✅ **Minimal & Scalable Setup**
+- 🎨 **Smooth animations** using CSS transitions
+- 📌 **Dynamic card expansion** on click
+- 📱 **Responsive design** for all screen sizes
+- 🖱️ **Beginner-friendly JavaScript logic**
+
+## 🛠️ Technologies Used
+
+- ✅ HTML5
+- ✅ CSS3 (Flexbox & Transitions)
+- ✅ JavaScript (Event Listeners & DOM Manipulation)
 
 ## 📂 Folder Structure
 
 ```
-html-boilerplate/
+expanding-cards/
 │-- index.html
 │-- css/
 │   ├── styles.css
@@ -21,14 +27,14 @@ html-boilerplate/
 │-- README.md
 ```
 
-## 🛠️ Usage
+## 🏗️ How to Use
 
-1. **Clone the Repository**
+1. **Clone the repository**
    ```sh
-   git clone https://github.com/yourusername/html-boilerplate.git
+   git clone https://github.com/your-username/expanding-cards.git
    ```
-2. **Open `index.html` in a Browser**
-3. **Customize & Build Your Project!** 🚀
+2. **Open `index.html` in your browser**
+3. **Click on a card to expand it!** 🎉
 
 ## 📜 License
 
@@ -36,5 +42,4 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-Made with ❤️ by [tinashekupfuwa]
-# expanding-cards
+Made with ❤️ by [Your Name]
