@@ -12,4 +12,42 @@ body {
   height: 100vh;
   justify-content: center;
   place-items: center;
+  background: #fffffb;
+}
+
+.parent-expanding-cards {
+  display: flex;
+}
+
+.expanding-card {
+  color: bold;
+  display: grid;
+  place-items: center;
+  height: 28rem;
+  width: 4rem;
+  background-color: hsl(43, 57%, 77%);
+  border-radius: 0.3125rem;
+  transition: width 2s;
+  margin: 0 2px;
+}
+
+.expanding-card-hover {
+  width: 36rem;
+  background-color: hsl(10, 85%, 61%);
+  /* border-right: 4px solid yellowgreen; */
+  margin: 0 4px;
+  box-shadow: 0px 0px 100px hsl(10, 85%, 61%);
+  transition: width 2s ease, background-color 1s ease-in-out,
+    box-shadow 1s ease-in-out;
+}
+
+.expanding-card-click:nth-last-child(1):hover {
+  border-right: none;
+}
+
+.big-bold-text {
+  font-size: 6rem;
+  color: white;
+  font-weight: bold;
+  transition: font-size 1s ease, font-weight 2s ease, color 1s ease;
 }
